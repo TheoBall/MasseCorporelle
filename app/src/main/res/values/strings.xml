@@ -1,0 +1,17 @@
+<resources>
+    <!-- Ecran principal -->
+    <string name="app_name">MasseCorporelle</string>
+    <string name="main_title_textbox">IMC Calculator</string>
+    <string name="main_weight_textbox">Weight</string>
+    <string name="main_height_textbox">Height</string>
+    <string name="main_validate_button">Validate</string>
+    <string name="main_cancel_button">Cancel</string>
+    <string name="main_hint_weight">Weight</string>
+    <string name="main_hint_height">Height</string>
+    <string name="actionbar_favorite">Favorite</string>
+    <string name="actionbar_delete">Delete</string>
+    <string name="actionbar_setting">About</string>
+    <string name="about_app_name">MasseCorporelle</string>
+    <string name="about_app_author">By Théo Ballerini</string>
+    <string name="about_app_version">Version 1.0</string>
+</resources>

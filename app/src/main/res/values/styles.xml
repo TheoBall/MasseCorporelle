@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Application de base-->
+    <style name="Theme.IMC" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorBackGround</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+    </style>
+
+    <!--Style pour les Input Text-->
+    <style name="widget.IMC.TextInputLayer.Weight" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/textInputLayoutBorder</item>
+        <item name="hintTextColor">@color/textColorPrimary</item>
+        <item name="hintTextAppearance">@style/TextAppearance.IMC.TextInputLayout.HintText</item>
+        <item name="suffixText">kilo</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <style name="widget.IMC.TextInputLayer.Height" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/textInputLayoutBorder</item>
+        <item name="hintTextColor">@color/textColorPrimary</item>
+        <item name="hintTextAppearance">@style/TextAppearance.IMC.TextInputLayout.HintText</item>
+        <item name="suffixText">cm</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+
+    <style name="TextAppearance.IMC.TextInputLayout.HintText" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <!--Style des boutons-->
+    <style name="widget.IMC.TextInputLayer.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="elevation">10dp</item>
+    </style>
+    <style name="widget.IMC.TextInputLayer.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ecran principal -->
+    <string name="app_name">MasseCorporelle</string>
+    <string name="main_title_textbox">Calculateur de masse corporelle</string>
+    <string name="main_weight_textbox">Poids</string>
+    <string name="main_height_textbox">Taille</string>
+    <string name="main_validate_button">Valider</string>
+    <string name="main_cancel_button">Annuler</string>
+    <string name="main_hint_weight">Poids</string>
+    <string name="main_hint_height">Taille</string>
+    <string name="actionbar_favorite">Favoris</string>
+    <string name="actionbar_delete">Supprimer</string>
+    <string name="actionbar_setting">À propos</string>
+    <string name="about_app_name">MasseCorporelle</string>
+    <string name="about_app_author">Par Théo Ballerini</string>
+    <string name="about_app_version">Version 1.0</string>
+</resources>
